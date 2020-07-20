@@ -1,0 +1,21 @@
+{
+    "name": "ts-options-defaults",
+    "version": "0.0.10",
+    "license": "GPL-3.0",
+    "files": [
+        "dist"
+    ],
+    "author": "Artur Kurowski <radarsu@gmail.com>",
+    "homepage": "https://github.com/radarsu/ts-options-defaults#readme",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "dependencies": {},
+    "devDependencies": {
+        "@radrat/cli": "0.0.21-0",
+        "@types/node": "^14.0.22",
+        "chalk": "^4.1.0",
+        "ts-essentials": "^7.0.0",
+        "ts-import": "0.0.10",
+        "typescript": "^3.9.5"
+    }
+}
