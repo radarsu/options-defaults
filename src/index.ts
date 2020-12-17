@@ -8,7 +8,7 @@ export const merge = (object: any, ...sources: any[]) => {
         Object.entries(source).forEach(([key, value]) => {
             if (key === '__proto__' || key === 'constructor' || key === 'prototype')
             {
-                continue;
+                return;
             }
             // Handle simple types and members of classes different than Object.
             if (typeof value !== 'object' || Array.isArray(value) || value.constructor.name !== 'Object') {
